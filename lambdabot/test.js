@@ -33,7 +33,7 @@ test('good event', t=> {
       timestamp: '1355517523.000005',
       user_id: 'U2147483697',
       user_name: 'brian',
-      text: '@lambdabot heed my words',
+      text: '@lambdabot help',
       trigger_word: '@lambdabot'
     }
   }, 

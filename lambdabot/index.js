@@ -1,5 +1,6 @@
 var validate = require('@smallwins/validate')
 var lambda = require('@smallwins/lambda')
+var lodash = require('lodash')
 
 function valid(event, callback) {
   var schema = {
@@ -18,8 +19,21 @@ function valid(event, callback) {
 }
 
 function fn(event, callback) {
-  // callback(Error('name failed'))
-  callback(null, {ok:true})
+  var msg = lodash.trim(event.body.text.replace(event.body.trigger_word, ''))
+      console.log('got msg', msg)
+  var text = 'sorry eh'
+  if (msg === 'help') {
+    text = 'help: list of commands\n'
+    text += '- help\n'
+    text += '- status\n'
+  }
+  if (msg === 'status') {
+    text = 'systems nominal'
+  }
+  if (msg === '') {
+    text = '...'
+  }
+  callback(null, {ok:true, text:text})
 }
 
 exports.handler = lambda(valid, fn)
