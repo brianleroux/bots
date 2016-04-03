@@ -1,0 +1,14 @@
+{
+  "name": "bots",
+  "version": "1.0.0",
+  "scripts": {
+    "create": "lambda-create",
+    "list": "lambda-list",
+    "invoke": "lambda-invoke",
+    "deploy": "lambda-deploy",
+    "deps": "lambda-deps"
+  },
+  "dependencies": {
+    "@smallwins/lambda": "^4.8.0"
+  }
+}
