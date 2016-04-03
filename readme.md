@@ -136,7 +136,17 @@ Then add the following to your `package.json`:
 <script src="https://gist.github.com/brianleroux/da469ce9ef1cb1723b3cd25ad715fb9f.js"></script>
 
 ---
+
+    # tests and lambda.local
+
 ---
+    
+# all good bots respond to
+
+- help
+- status
+- blank input
+
 ---
 ---
 ---
