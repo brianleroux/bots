@@ -101,14 +101,14 @@
                                          
 ```
 ---
-#### simultaneously the smallest unit of compute has become a function
+####  :two_women_holding_hands::two_men_holding_hands: simultaneously the smallest unit of compute has become a function
 - <kbd>2010</kbd> Iron.io 
 - <kbd>2014</kbd> AWS Lambda 
 - <kbd>2015</kbd> Webtask  https://speakerdeck.com/benschwarz/webtask-all-you-need-is-code
 - <kbd>2015</kbd> TonicDev 
 - <kbd>2016</kbd> Google Cloud Functions 
-- <kbd>2016</kbd>Microsoft Azure Functions 
-- <kbd>2016</kbd>now.sh 
+- <kbd>2016</kbd> Microsoft Azure Functions 
+- <kbd>2016</kbd> now.sh 
 ```
 
                                                                                               Kinda rad.
