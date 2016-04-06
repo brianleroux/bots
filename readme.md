@@ -74,30 +74,28 @@
 - conversation as a platform
 
 
-Everyone is talking about the same thing:
+😍 Everyone is talking about the same thing:
 ```
 ```bash
-#! bots 🤖😍
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#!🤖 bots 
+```
+```bash
+#!🤖 bots 
+```
+```bash
+#!🤖 bots 
+```
+```bash
+#!🤖 bots 
+```
+```bash
+#!🤖 bots 
+```
+```bash
+#!🤖 bots 
+```
+```bash
+#!🤖 bots 
 ```
 ---
 
