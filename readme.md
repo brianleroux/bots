@@ -1,6 +1,6 @@
+# the rise of the bot :robot:
+## adventures in serverless programming
 ```
-# the rise of the bot
-## &amp; adventures in serverlessish programming
 
 https://github.com/brianleroux
 
