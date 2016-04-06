@@ -32,12 +32,12 @@
 
 ```
 ---
-## 📞 significant communication technologies of our lifetimes 📟📠📺📻
+## 📞 significant communication technologies of our lifetimes ⚓️
 ```
-- personal computing 💻
-- internet ⚓️🕸
-- mobile 📱
-- messaging? 🙈🙊🙉 
+#!💻 personal computing 
+#!🕸 the interwebs     
+#!📱 mobile             
+#!💬 messaging? (at least we think so!)
 
 
 
@@ -62,7 +62,7 @@
 
 
 
-
+                                                                      📟 📠 📺 📻
 ```
 ---
 # 🤓 a swath of terms
@@ -76,7 +76,7 @@
 
 Everyone is talking about the same thing:
 
-## bots 🤖😍
+#! bots 🤖😍
 
 
 
@@ -118,7 +118,7 @@ Everyone is talking about the same thing:
 
 ---
 
-### smallest poassible unit of compute is a function
+### 🙈 🙊 🙉 smallest poassible unit of compute is a function
 
 - *AWS* First 1 million requests per month are free. $0.20 per 1 million requests thereafter ($0.0000002 per request)
 - *Google* pricing remains unannounced
