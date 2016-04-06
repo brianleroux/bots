@@ -77,22 +77,22 @@
 😍 Everyone is talking about the same thing:
 ```
 ```bash
-#!🤖 bots 
+#!🤖 bots                              bots
 ```
 ```bash
-#!🤖 bots 
+#!🤖 bots                         bots bots   bots bots bots
 ```
 ```bash
-#!🤖 bots 
+#!🤖 bots                              bots   bots
 ```
 ```bash
-#!🤖 bots 
+#!🤖 bots bots bots   bots bots bots   bots   bots bots bots
 ```
 ```bash
-#!🤖 bots 
+#!🤖 bots      bots   bots      bots   bots             bots
 ```
 ```bash
-#!🤖 bots 
+#!🤖 bots bots bots   bots bots bots   bots   bots bots bots
 ```
 ---
 ## simultaneously the smallest unit of compute has become a function
