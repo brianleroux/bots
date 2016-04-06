@@ -75,7 +75,8 @@
 
 
 Everyone is talking about the same thing:
-
+```
+```bash
 #! bots 🤖😍
 
 
