@@ -1,11 +1,22 @@
-
+```
 # the rise of the bot
 ## &amp; adventures in serverlessish programming
 
 https://github.com/brianleroux
 
----
 
+
+
+
+
+
+
+
+
+
+```
+---
+```
 # macro trends
 
 - personal computing
@@ -13,6 +24,15 @@ https://github.com/brianleroux
 - mobile
 - messaging
 
+
+
+
+
+
+
+
+
+```
 ---
 
 # a swath of terms
