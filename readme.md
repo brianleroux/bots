@@ -94,16 +94,11 @@
 ```bash
 #!🤖 bots 
 ```
-```bash
-#!🤖 bots 
+---
+## simultaneously the smallest unit of compute has become a function
 ```
----
-
-
----
     
-## simultaneously, recently and quite suddenly
-# the smallest unit of compute has become a function
+
 
 - Iron.io <kbd>2010!</kbd>
 - AWS Lambda <kbd>2014</kbd>
