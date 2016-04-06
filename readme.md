@@ -32,13 +32,12 @@
 
 ```
 ---
-# macro trends
+# 📞📟📠📺📻 significant communication technologies of our lifetimes
 ```
-- personal computing
-- internet
-- mobile
-- messaging
-
+- personal computing 💻
+- internet ⚓️🕸
+- mobile 📱
+- messaging? 🙈🙊🙉 
 
 
 
