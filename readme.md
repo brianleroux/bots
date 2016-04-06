@@ -75,9 +75,9 @@
 - conversation as a platform
 
 
+#### whatever, everyone is talking about the same thing
 
-
-
+## bots
 
 
 
@@ -101,9 +101,6 @@
 ```
 ---
 
-#### whatever, everyone is talking about the same thing
-
-## bots
 
 ---
     
