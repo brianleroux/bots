@@ -33,7 +33,7 @@
 ```
 ---
 ## 📞 significant communication technologies of our lifetimes ⚓️
-```
+```bash
 #!💻 personal computing 
 #!🕸 the interwebs     
 #!📱 mobile             
