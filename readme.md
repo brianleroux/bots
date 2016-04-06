@@ -1,6 +1,11 @@
 # :speech_balloon: the rise of the bot 
 ```
-https://github.com/brianleroux/bots
+
+
+
+
+
+
 
 
 
@@ -29,11 +34,17 @@ https://github.com/brianleroux/bots
 ---
 # macro trends
 ```
-
 - personal computing
 - internet
 - mobile
 - messaging
+
+
+
+
+
+
+
 
 
 
