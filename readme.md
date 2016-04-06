@@ -101,6 +101,20 @@
                                          
 ```
 ---
+```    
+                                                                                              
+                                                                                              
+                                                                                              
+                                                                                              
+                                                                                              
+                                                                                              
+                                                                                              
+                                                                                              
+                                                                                              
+                                                                                              
+                                                                                              
+                                                                                              
+```                                                                                              
 ####  :two_women_holding_hands::two_men_holding_hands: simultaneously the smallest unit of compute has become a function
 - <kbd>2010</kbd> Iron.io 
 - <kbd>2014</kbd> AWS Lambda 
@@ -114,19 +128,6 @@
                                                                                               Kinda rad.
 
 
-                                                                                              
-                                                                                              
-                                                                                              
-                                                                                              
-                                                                                              
-                                                                                              
-                                                                                              
-                                                                                              
-                                                                                              
-                                                                                              
-                                                                                              
-                                                                                              
-                                                                                              
                                                                                               
                                                                                               
                                                                                               
