@@ -32,7 +32,7 @@
 
 ```
 ---
-# 📞📟📠📺📻 significant communication technologies of our lifetimes
+## 📞 significant communication technologies of our lifetimes 📟📠📺📻
 ```
 - personal computing 💻
 - internet ⚓️🕸
