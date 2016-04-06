@@ -25,8 +25,8 @@ https://github.com/brianleroux/bots
 
 ```
 ---
-```
 # macro trends
+```
 
 - personal computing
 - internet
