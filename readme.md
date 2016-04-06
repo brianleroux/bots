@@ -66,9 +66,9 @@
 
 ```
 ---
-# a swath of terms
+# 🤓 a swath of terms
 ```
-- chatbots
+- chatbots 🤖
 - agents
 - assistants
 - conversational ui/ux
