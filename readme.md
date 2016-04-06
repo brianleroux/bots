@@ -1,8 +1,7 @@
-# the rise of the bot :robot:
-## adventures in serverless programming
+# :speech_balloon: the rise of the bot :robot:
+https://github.com/brianleroux/bots
 ```
 
-https://github.com/brianleroux
 
 
 
