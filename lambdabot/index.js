@@ -15,25 +15,36 @@ function valid(event, callback) {
     'body.text':         {required:true, type:String},
     'body.trigger_word': {required:true, type:String}
   }
-  validate(event, schema, callback)
+  var errors = validate(event, schema)
+  if (errors) {
+    callback(null, {ok:false, text:'errs!'})
+  }
+  else {
+    callback(null, event)
+  }
 }
 
 function fn(event, callback) {
-  var msg = lodash.trim(event.body.text.replace(event.body.trigger_word, ''))
-      console.log('got msg', msg)
-  var text = 'sorry eh'
-  if (msg === 'help') {
-    text = 'help: list of commands\n'
-    text += '- help\n'
-    text += '- status\n'
+  if (!event.ok) {
+    event.ok = true
+    callback(null, event)
   }
-  if (msg === 'status') {
-    text = 'systems nominal'
+  else {
+    var msg = lodash.trim(event.body.text.replace(event.body.trigger_word, ''))
+    var text = 'sorry eh'
+    if (msg === 'help') {
+      text = 'help: list of commands\n'
+      text += '- help\n'
+      text += '- status\n'
+    }
+    if (msg === 'status') {
+      text = 'systems nominal'
+    }
+    if (msg === '') {
+      text = '...'
+    }
+    callback(null, {ok:true, text:text})
   }
-  if (msg === '') {
-    text = '...'
-  }
-  callback(null, {ok:true, text:text})
 }
 
 exports.handler = lambda(valid, fn)
