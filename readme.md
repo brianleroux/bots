@@ -1,4 +1,4 @@
-# :speech_balloon: the rise of the bot :robot:
+# :speech_balloon: the rise of the bot 
 https://github.com/brianleroux/bots
 ```
 
