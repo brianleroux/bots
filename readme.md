@@ -209,19 +209,49 @@ But this manifestation is. These Bots are not here just to chat.
                                        I find Azure pricing nebulous and confusing. Maybe thats just me.
 ```
 ---
+# For @begin we chose AWS Lambda
+```
+I really think any of them could be a fine choice though. 
 
-We chose AWS Lambda. I really think any of them would be a fine choice though. 
-
-- The lock in risk at the function level is trivial to avoid
+- The lockin risk at the function level is trivial to avoid
 - Vendors increasing exponentially while compute continues to get cheaper
-- The real price you'll pay is the cost of a adopting a new microservices architecture
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```
+---
+# The real cost
+```
+The real price you'll pay is the cost of a adopting a new microservices architecture
+
 - A new way of thinking for your dev team
 - Also the tools for container techniques are still new(ish) and often raw
 
 (Truly it is cheap enough to experiment with all them and I totally reccomend you do.)
-
+```
 ---
-
+```
 There are three types of Lambda function:
 
 1. Lambdas that return a value (Typically, but not exclusively, thru API Gateway)
