@@ -203,7 +203,7 @@ But this manifestation is. These Bots are not here just to chat.
 
 
 
-                              I find Azure pricing nebulous and confusing. Maybe thats just me.
+                                   I find Azure pricing nebulous and confusing. Maybe thats just me.
 ```
 ---
 
