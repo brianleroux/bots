@@ -277,6 +277,37 @@ I really think any of these solutions could be a fine choice though.
 (Truly it is cheap enough to experiment with all them and I totally reccomend you do.)
 ```
 ---
+```
+
+
+
+
+
+
+
+
+
+
+
+
+                                    Let's dig into Lambdas
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```
+---
 # There are three types of Lambda function
 ```
 
