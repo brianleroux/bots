@@ -131,14 +131,14 @@ But this manifestation is. These Bots are not here just to chat.
 
       🐮  "👊🏾"
 ```
-##### Oldschool bot platforms:
+##### Oldschool Bot platforms
 ```
 - irc
 - email
 - sms
 - twitter
 ```
-##### Nuschool bot platforms
+##### Nuschool Bot platforms
 ```
 - Slack
 - Hipchat
@@ -180,13 +180,31 @@ But this manifestation is. These Bots are not here just to chat.
                                                                                               
 ```
 ---
+### 💰 function pricing
+🙊 *AWS* `First 1 million requests per month are free. $0.20 per 1 million requests thereafter ($0.0000002 per request)`
+🙉 *Google* `pricing remains unannounced`
+🙈 *Azure* `Function requests are charged per million requests, with the first 1 million requests free. Then an ambigous:  pay for what you use with compute metered to the nearest 100ms at Per/GB.` 
+```
 
-### 🙈 🙊 🙉 smallest poassible unit of compute is a function
 
-- *AWS* First 1 million requests per month are free. $0.20 per 1 million requests thereafter ($0.0000002 per request)
-- *Google* pricing remains unannounced
-- *Azure* Function requests are charged per million requests, with the first 1 million requests free. Then an ambigous:  pay for what you use with compute metered to the nearest 100ms at Per/GB. I find Azure pricing nebulous and confusing. Maybe thats just me.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+I find Azure pricing nebulous and confusing. Maybe thats just me.
+```
 ---
 
 We chose AWS Lambda. I really think any of them would be a fine choice though. 
