@@ -443,11 +443,12 @@ console.log('hello bot')
 ## part 0: the pick axes, the shovels, the building blocks
 
 
-| Phase         | Are                                            |
+| phase         |                                                |
 | -------------:|:---------------------------------------------- |
 | 0             | Hello world Lambda function                    |
 | 1             | Expose endopint to the web with API Gateway    |
-| 2             | Wire up SMS with Twilio and then port to Slack |
+| 2             | Wire up SMS with Twilio                        |
+| 3             | Port to Slack                                  |
 
 
 ---    
