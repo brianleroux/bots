@@ -317,7 +317,7 @@ I really think any of these solutions could be a fine choice though.
 
              .--------------------------------------------------------------.
             ( AWS doesn't make a distinction with 2 & 3                     |
-            ( 'CloudWatch Events - Schedule' is an event source             }--
+            ( 'CloudWatch Events - Schedule' is an event source             }-- 🗿
             ( However it is a good idea to seperate these types of function |
              '--------------------------------------------------------------'
 
@@ -339,7 +339,7 @@ exports.handler = function(event, context) {
 ---
 ```javascript
 /**
- * so lets see how we can combine those ideas: serverless servers and chatless bots
+ * so lets see how we can combine those ideas: serverless servers and build a Bots
  * lets build a bot, specifically, lets build an sms bot
  * then we'll port it to slack
  */
