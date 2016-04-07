@@ -443,18 +443,12 @@ console.log('hello bot')
 ## part 0: the pick axes, the shovels, the building blocks
 
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| Phase         | Are                                            |
+| -------------:|:---------------------------------------------- |
+| 0             | Hello world Lambda function                    |
+| 1             | Expose endopint to the web with API Gateway    |
+| 2             | Wire up SMS with Twilio and then port to Slack |
 
-|N|Botmaker phase                                 |      |
-|-|:----------------------------------------------|-----:|
-|1| Hello world Lambda function                   |      |
-|2| Expose endopint to the web with API Gateway   |      |
-|3| Wire up SMS with Twilio and then port to Slack|      |
-| |                                               |      |
 
 ---    
 
