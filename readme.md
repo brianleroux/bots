@@ -112,7 +112,55 @@
                                                                                               
                                                                                               
                                                                                               
-```                                                                                              
+```
+---
+## Bots aren't super new
+```
+
+But this manifestation is. These Bots are not here just to chat. This generation of Bot is a superagent acting on your behalf. If we want to get ambitious with the concept you could consider Bots as our newest form of intellectual augmentation. Bots can better for some things than Apps. That is interesting enough.
+
+Similar to web tech Bot exist simultaneously across different platforms and adapt seamlessly through contexts they are in without losing state. The interfaces is conversation and the conversation can move between platforms transparently.
+
+Oldschool bot platforms:
+
+- irc
+- email
+- sms
+- twitter
+
+Nuschool bot platforms
+
+- slack
+- hipchat
+- messenger 
+- telegram
+- kik
+- whatsapp
+- wechat
+- line
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```
 ####  :two_women_holding_hands::two_men_holding_hands: simultaneously the smallest unit of compute has become a function
 - <kbd>2010</kbd> Iron.io 
 - <kbd>2014</kbd> AWS Lambda 
