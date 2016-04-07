@@ -136,7 +136,6 @@ But this manifestation is. These Bots are not here just to chat.
 - irc
 - email
 - sms
-- twitter
 ```
 ##### Nuschool Bot platforms
 ```
@@ -146,8 +145,6 @@ But this manifestation is. These Bots are not here just to chat.
 - Telegram
 - Kik
 - Whatsapp
-- Wechat
-- Line
 ```
 ---
 ```
@@ -377,68 +374,6 @@ exports.handler = function(event, context) {
 <blockquote>&nbsp;</blockquote>
 <blockquote>&nbsp;</blockquote>
 <blockquote>&nbsp;</blockquote>
-```javascript
-
-
-
-/**
- * our bot needs a purpose
- *
- * a reason to exist
- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-```
-<blockquote>&nbsp;</blockquote>
-<blockquote>&nbsp;</blockquote>
-<blockquote>&nbsp;</blockquote>
-```javascript
-/**
- * but first, lets say hello
- */
-
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-console.log('hello bot')
-
-```
 ---
 ## the pick axes ⛏ the shovels 🕳 the building blocks 🔩
 
