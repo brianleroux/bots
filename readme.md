@@ -442,6 +442,7 @@ console.log('hello bot')
 ---
 ## part 0: the pick axes ⛏, the shovels 🕳, the building blocks 🔩
 
+|                                                |                       |
 |:---------------------------------------------- | ---------------------:|
 | Hello world Lambda function                    |🆒                      |
 | Expose endopint to the web with API Gateway    |🆗🆙                     |
