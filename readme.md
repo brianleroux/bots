@@ -247,12 +247,12 @@ I really think any of these solutions could be a fine choice though.
 - Alan Perlis ripping off Oscar Wilde
 </blockquote>
 ```
-The real price you'll pay is the cost of a adopting a new microservices architecture.
+The real price you'll pay is the cost of a adopting a new microservice style architecture.
 
 👉 A new way of thinking for your dev team
 👉 Also the tools for container techniques are still new(ish) and often raw
-
-
+👉 Many repos that produce even smaller deployment artifacts makes dep mgmt tricky
+👉 Many repos can also make deployment tricky (to mitigate automate everything from day zero)
 
 
 
@@ -345,9 +345,9 @@ exports.handler = function(event, context) {
 
 
 /**
- * so lets see how we can combine those ideas: serverless servers and build a Bots
- * lets build a bot, specifically, lets build an sms bot
- * then we'll port it to Slack
+ * So lets see how we can combine those ideas: and build ourselves a serverless Bot
+ * specifically, lets build an SMS bot
+ * then we will port it to Slack
  *
  */
 
