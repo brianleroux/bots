@@ -309,14 +309,14 @@ The real price you'll pay is the cost of a adopting a new microservices architec
 
 ```
 ---
-# There are three types of Lambda function
+## 📚 There are three types of Lambda function
 ```
  
- 🗣 .-----------------------------------------------------------------------------------.
-   | 1. Lambdas that return a value (Typically, but not exclusively, thru API Gateway) |
-   | 2. Lambdas as an event source (S3 events, SNS topics and DynamoDB triggers)       |
-   | 3. Lambdas that run on a schedule                                                 |
-   '-----------------------------------------------------------------------------------'
+ 🗣 .-------------------------------------------------------------------------------------.
+   | 1. 📗 Lambdas that return a value (Typically, but not exclusively, thru API Gateway) |
+   | 2. 📘 Lambdas as an event source (S3 events, SNS topics and DynamoDB triggers)       |
+   | 3. 📙 Lambdas that run on a schedule                                                 |
+   '-------------------------------------------------------------------------------------'
                                         .---------------------=-----------------------------------------.
                                         ( AWS doesn't make a distinction with 2 & 3                     )
                                         ( 'CloudWatch Events - Schedule' is an event source             )   
