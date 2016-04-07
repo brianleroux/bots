@@ -317,11 +317,11 @@ The real price you'll pay is the cost of a adopting a new microservices architec
    | 2. 📘 Lambdas as an event source (S3 events, SNS topics and DynamoDB triggers)       |
    | 3. 📙 Lambdas that run on a schedule                                                 |
    '-------------------------------------------------------------------------------------'
-                                        .---------------------=-----------------------------------------.
+                                        .--------------------===========--------------------------------.
                                         ( AWS doesn't make a distinction with 2 & 3                     )
                                         ( 'CloudWatch Events - Schedule' is an event source             )   
                                         ( However it is a good idea to seperate these types of function ) 
-                                        '---------------------------------------------------------------' 
+                                        '-----------------=========-------------------------------------' 
                                                                                                        🗿  
 ```
 ```javascript
@@ -442,9 +442,13 @@ console.log('hello bot')
 ---
 ## part 0: the pick axes, the shovels, the building blocks
 
-1. create a hello world lambda and get it deploying/invoking
-2. expose a bot endpoint to the web with api gateway
-3. wire it up with twilio for sms and slack from an outgoing webhook
+
+|   | Botmaker phase                                 |       |
+| - |:---------------------------------------------- | -----:|
+| 1 | Hello world Lambda function                    |       |
+| 2 | Expose endopint to the web with API Gateway    |       |
+| 3 | Wire up SMS with Twilio and then port to Slack |       |
+|   |                                                |       |
 
 ---    
 
