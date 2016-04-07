@@ -181,9 +181,9 @@ But this manifestation is. These Bots are not here just to chat.
 ```
 ---
 ## 💰 function pricing
-- 🙊 *AWS* `First 1 million requests per month are free. $0.20 per 1 million requests thereafter ($0.0000002 per request)`
-- 🙉 *Google* `pricing remains unannounced`
-- 🙈 *Azure* `Function requests are charged per million requests, with the first 1 million requests free. Then an ambigous:  pay for what you use with compute metered to the nearest 100ms at Per/GB.` 
+- 🙊 **AWS** `First 1 million requests per month are free. $0.20 per 1 million requests thereafter ($0.0000002 per request)`
+- 🙉 **Google** `pricing remains unannounced`
+- 🙈 **Azure** `Function requests are charged per million requests, with the first 1 million requests free. [Then ambigous] pay for what you use with compute metered to the nearest 100ms at Per/GB` 
 ```
 
 
