@@ -472,9 +472,10 @@ console.log('hello bot')
 
 ```
 ---
-### :satellite::satellite: λlambda that returns a value :mailbox:
+### :satellite::satellite: a lambda that returns a value :mailbox:
 Here is a vanilla AWS Lambda example for performing a sum. Given `event.query.x = 1` it will return `{count:2}`.
 ```javascript
+
 exports.handler = function sum(event, context) {
   var errors = []
   if (typeof event.query === 'undefined') {
@@ -498,6 +499,13 @@ exports.handler = function sum(event, context) {
     context.succeed({count:event.query.x + 1})
   }
 }
+```
+<blockquote>Validating a _single variable_ `event.query.x`!! </blockquote>
+---
+```
+A huge amount of vanilla AWS Lambda code is working around quirky parameter validation. API Gateway gives you control over the parameters you can expect but this still means one or more of: headers, querystring, form body, or url parameters. Event source style lambdas are not much better because you can often still get differing payloads from different origin sources. In the example above we are validating one querystring parameter x. Imagine a big payload! 😮
+
+Worse still, writing a good program we want to use JavaScript's builtin Error but it still needs manual serialization (and you still lose the stack trace). The latter part of this vanilla code uses the funky AWS context object.
 ```
 ---    
 ### create a lambda function in the aws console
