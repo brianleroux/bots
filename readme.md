@@ -315,12 +315,12 @@ I really think any of these solutions could be a fine choice though.
 2. Lambdas as an event source (S3 events, SNS topics and DynamoDB triggers for example)
 3. Lambdas that run on a schedule 
 
-             .--------------------------------------------------------------.
-            ( AWS doesn't make a distinction with 2 & 3                      )
-            ( 'CloudWatch Events - Schedule' is an event source              )   
-            ( However it is a good idea to seperate these types of function  ) 
-             '--------------------------------------------------------------' 
-                                                                             🗿  
+                       .--------------------------------------------------------------.
+                      ( AWS doesn't make a distinction with 2 & 3                      )
+                      ( 'CloudWatch Events - Schedule' is an event source              )   
+                      ( However it is a good idea to seperate these types of function  ) 
+                       '--------------------------------------------------------------' 
+                                                                                      🗿  
 ```
 ```javascript
 /**
