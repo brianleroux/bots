@@ -118,7 +118,6 @@
 ```
 But this manifestation is. These Bots are not here just to chat. 
 
-
       🐧  "This Bot is a superagent acting on your behalf 
           and it better for some things than using an App"
 
@@ -127,6 +126,10 @@ But this manifestation is. These Bots are not here just to chat.
           contexts they are in. The interfaces is conversation 
           and the conversation can move between platforms 
           transparently."
+
+      🐧  "Right!"
+
+      🐮  "👊🏾"
 ```
 ##### Oldschool bot platforms:
 ```
