@@ -443,7 +443,7 @@ console.log('hello bot')
 ## the pick axes ⛏ the shovels 🕳 the building blocks 🔩
 
 | Lets write some code                             |                       |
-|:------------------------------------------------ | ---------------------:|
+|:------------------------------------------------ |:--------------------- |
 | 💎 Hello world Lambda function                    |💎|
 | 💎 Expose endopint to the web with API Gateway    |💎💎|
 | 💎 Wire up SMS with Twilio                        |💎💎💎|
@@ -470,34 +470,37 @@ console.log('hello bot')
 
 
 
-
 ```
-
+---
+### :satellite::satellite: λlambda that returns a value :mailbox:
+Here is a vanilla AWS Lambda example for performing a sum. Given `event.query.x = 1` it will return `{count:2}`.
+```javascript
+exports.handler = function sum(event, context) {
+  var errors = []
+  if (typeof event.query === 'undefined') {
+    errors.push(ReferenceError('missing event.query'))
+  }
+  if (event.query && typeof event.query != 'object') {
+    errors.push(TypeError('event.query not an object'))
+  }
+  if (typeof event.query.x === 'undefined') {
+    errors.push(ReferenceError('event.query not an object'))
+  }
+  if (event.query.x && typeof event.query.x != 'number') {
+    errors.push(TypeError('event.query not an object'))
+  }
+  if (errors.length) {
+    // otherwise Error would return [{}, {}, {}, {}]
+    var err = errors.map(function(e) {return e.message})
+    context.fail(err) 
+  }
+  else {
+    context.succeed({count:event.query.x + 1})
+  }
+}
+```
 ---    
-
-## part 1: call and response (alphabots)
-
-1. a look at data formats for knowledgebases
-2. regular expressions
-3. alice, superscript, rive, chatscript
-
----
-
-## part 2: scripting (betabots)
-
-1. payload and reply
-2. the middleware pattern
-
----
- 
-## part 3: stateful (bots)
-
-1. aws storage options
-2. finite state machines
-
----
-
-# create a lambda function in the aws console
+### create a lambda function in the aws console
 
 - `@smallwins/lambda` is deliberately a data flow control library with some convienance scripts 
 - `@smallwins/lambda` is not a confiuration utility (aka a framework)
@@ -563,3 +566,24 @@ Then add the following to your `package.json`:
 ---
 ---
 ---
+
+## part 1: call and response (alphabots)
+
+1. a look at data formats for knowledgebases
+2. regular expressions
+3. alice, superscript, rive, chatscript
+
+---
+
+## part 2: scripting (betabots)
+
+1. payload and reply
+2. the middleware pattern
+
+---
+ 
+## part 3: stateful (bots)
+
+1. aws storage options
+2. finite state machines
+
