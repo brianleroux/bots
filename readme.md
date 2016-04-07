@@ -1,8 +1,8 @@
 # :speech_balloon: the rise of the bot 
 ```
-
-
-
+                                                                                 
+                                                                               🔀 @brianleroux
+                                                                               💌 brian@begin.com
 
 
 
