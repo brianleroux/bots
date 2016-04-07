@@ -347,7 +347,8 @@ exports.handler = function(event, context) {
 /**
  * so lets see how we can combine those ideas: serverless servers and build a Bots
  * lets build a bot, specifically, lets build an sms bot
- * then we'll port it to slack
+ * then we'll port it to Slack
+ *
  */
 
 
@@ -373,13 +374,16 @@ exports.handler = function(event, context) {
 
 
 ```
----
+<blockquote>&nbsp;</blockquote>
+<blockquote>&nbsp;</blockquote>
+<blockquote>&nbsp;</blockquote>
 ```javascript
 
 
 
 /**
  * our bot needs a purpose
+ *
  * a reason to exist
  */
 
@@ -404,7 +408,9 @@ exports.handler = function(event, context) {
 
 
 ```
----
+<blockquote>&nbsp;</blockquote>
+<blockquote>&nbsp;</blockquote>
+<blockquote>&nbsp;</blockquote>
 ```javascript
 /**
  * but first, lets say hello
@@ -432,14 +438,8 @@ exports.handler = function(event, context) {
      
 console.log('hello bot')
 
-
-
-
-
-
 ```
 ---
-
 ## part 0: the pick axes, the shovels, the building blocks
 
 1. create a hello world lambda and get it deploying/invoking
