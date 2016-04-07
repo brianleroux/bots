@@ -315,8 +315,19 @@ I really think any of these solutions could be a fine choice though.
 2. Lambdas as an event source (S3 events, SNS topics and DynamoDB triggers for example)
 3. Lambdas that run on a schedule 
 
+```
 _AWS doesn't make a big distinction with 2 & 3 it adds "CloudWatch Events - Schedule" as an event source._
-
+```javascript
+/**
+ * a typical Lambda signature
+ */
+exports.handler = function(event, context) {
+  // event is an arbitrary payload of data from whatever source invoked the Lambda
+  // context is an object with information about the execution environment
+  //   AND it has function members for asynchronous: `succeed`, `fail` or shorthand err first `done`
+  context.done(null, {ok:true})
+}
+```
 ---
 ```javascript
 /**
