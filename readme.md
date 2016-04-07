@@ -209,9 +209,9 @@ But this manifestation is. These Bots are not here just to chat.
                                        I find Azure pricing nebulous and confusing. Maybe thats just me.
 ```
 ---
-# For @begin we chose AWS Lambda
+# For begin.com we chose AWS Lambda
 ```
-I really think any of them could be a fine choice though. 
+I really think any of these solutions could be a fine choice though. 
 
 - The lockin risk at the function level is trivial to avoid
 - Vendors increasing exponentially while compute continues to get cheaper
@@ -241,9 +241,12 @@ I really think any of them could be a fine choice though.
 
 ```
 ---
-# The real cost
+# The real cost 
+<blockquote>
+"Lisp programmers know the value of everything and the cost of nothing."
+</blockquote>
 ```
-The real price you'll pay is the cost of a adopting a new microservices architecture
+ The real price you'll pay is the cost of a adopting a new microservices architecture.
 
 - A new way of thinking for your dev team
 - Also the tools for container techniques are still new(ish) and often raw
