@@ -330,9 +330,9 @@ exports.handler = function(event, context) {
   context.done(null, {ok:true})
 }
 ```
-<blockquote></blockquote>
-<blockquote></blockquote>
-<blockquote></blockquote>
+<blockquote>&nbsp;</blockquote>
+<blockquote>&nbsp;</blockquote>
+<blockquote>&nbsp;</blockquote>
 ---
 ```javascript
 /**
