@@ -241,7 +241,7 @@ I really think any of these solutions could be a fine choice though.
 
 ```
 ---
-# The real cost 
+# 💸 The real cost 
 <blockquote>
 "Lisp programmers know the value of everything and the cost of nothing."
 - Alan Perlis
@@ -252,11 +252,33 @@ I really think any of these solutions could be a fine choice though.
 - A new way of thinking for your dev team
 - Also the tools for container techniques are still new(ish) and often raw
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 (Truly it is cheap enough to experiment with all them and I totally reccomend you do.)
 ```
 ---
+# There are three types of Lambda function
 ```
-There are three types of Lambda function:
 
 1. Lambdas that return a value (Typically, but not exclusively, thru API Gateway)
 2. Lambdas as an event source (S3 events, SNS topics and DynamoDB triggers for example)
