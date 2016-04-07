@@ -244,6 +244,7 @@ I really think any of these solutions could be a fine choice though.
 # The real cost 
 <blockquote>
 "Lisp programmers know the value of everything and the cost of nothing."
+- Alan Perlis
 </blockquote>
 ```
  The real price you'll pay is the cost of a adopting a new microservices architecture.
