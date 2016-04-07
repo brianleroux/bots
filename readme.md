@@ -316,7 +316,9 @@ I really think any of these solutions could be a fine choice though.
 3. Lambdas that run on a schedule 
 
 ```
+<blockquote>
 _AWS doesn't make a big distinction with 2 & 3 it adds "CloudWatch Events - Schedule" as an event source._
+</blockquote>
 ```javascript
 /**
  * a typical Lambda signature
@@ -328,6 +330,9 @@ exports.handler = function(event, context) {
   context.done(null, {ok:true})
 }
 ```
+<blockquote></blockquote>
+<blockquote></blockquote>
+<blockquote></blockquote>
 ---
 ```javascript
 /**
