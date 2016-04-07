@@ -116,10 +116,16 @@
 ---
 ## Bots aren't super new
 ```
+But this manifestation is. These Bots are not here just to chat. 
 
-But this manifestation is. These Bots are not here just to chat. This generation of Bot is a superagent acting on your behalf. If we want to get ambitious with the concept you could consider Bots as our newest form of intellectual augmentation. Bots can better for some things than Apps. That is interesting enough.
 
-Similar to web tech Bot exist simultaneously across different platforms and adapt seamlessly through contexts they are in without losing state. The interfaces is conversation and the conversation can move between platforms transparently.
+
+                     "This Bot is a superagent acting on your behalf 
+                        and it better for some things than using an App"
+
+
+
+Similar to web tech a Bot can exist simultaneously across different platforms and adapt seamlessly through contexts they are in. The interfaces is conversation and the conversation can move between platforms transparently.
 
 Oldschool bot platforms:
 
@@ -130,25 +136,14 @@ Oldschool bot platforms:
 
 Nuschool bot platforms
 
-- slack
-- hipchat
-- messenger 
-- telegram
-- kik
-- whatsapp
-- wechat
-- line
-
-
-
-
-
-
-
-
-
-
-
+- Slack
+- Hipchat
+- Messenger 
+- Telegram
+- Kik
+- Whatsapp
+- Wechat
+- Line
 
 
 
