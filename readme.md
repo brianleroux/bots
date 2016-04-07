@@ -244,13 +244,13 @@ I really think any of these solutions could be a fine choice though.
 # 💸 The real cost 
 <blockquote>
 "Lisp programmers know the value of everything and the cost of nothing."
-- Alan Perlis
+- Alan Perlis ripping off Oscar Wilde
 </blockquote>
 ```
- The real price you'll pay is the cost of a adopting a new microservices architecture.
+The real price you'll pay is the cost of a adopting a new microservices architecture.
 
-- A new way of thinking for your dev team
-- Also the tools for container techniques are still new(ish) and often raw
+👉 A new way of thinking for your dev team
+👉 Also the tools for container techniques are still new(ish) and often raw
 
 
 
@@ -278,32 +278,33 @@ I really think any of these solutions could be a fine choice though.
 ```
 ---
 ```
+                                          ΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛ
+                                          ΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛ
+                                          ΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛ
+                                          ΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛ
+                                          ΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛ
+                                          ΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛ
+                                          ΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛ
+                                          ΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛ
+                                          ΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛ
+                                          ΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛ
+                                          ΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛ
+                                          ΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛΛ
 
+                                          Let's dig into Lambdas
 
-
-
-
-
-
-
-
-
-
-
-                                    Let's dig into Lambdas
-
-
-
-
-
-
-
-
-
-
-
-
-
+                                          λλλλλλλλλλλλλλλλλλλλλλ 
+                                          λλλλλλλλλλλλλλλλλλλλλλ 
+                                          λλλλλλλλλλλλλλλλλλλλλλ 
+                                          λλλλλλλλλλλλλλλλλλλλλλ 
+                                          λλλλλλλλλλλλλλλλλλλλλλ 
+                                          λλλλλλλλλλλλλλλλλλλλλλ 
+                                          λλλλλλλλλλλλλλλλλλλλλλ 
+                                          λλλλλλλλλλλλλλλλλλλλλλ 
+                                          λλλλλλλλλλλλλλλλλλλλλλ 
+                                          λλλλλλλλλλλλλλλλλλλλλλ 
+                                          λλλλλλλλλλλλλλλλλλλλλλ 
+                                          λλλλλλλλλλλλλλλλλλλλλλ 
 
 
 ```
