@@ -120,21 +120,24 @@ But this manifestation is. These Bots are not here just to chat.
 
 
 
-                     "This Bot is a superagent acting on your behalf 
-                        and it better for some things than using an App"
+                  🐧  "This Bot is a superagent acting on your behalf 
+                      and it better for some things than using an App"
 
-
-
-Similar to web tech a Bot can exist simultaneously across different platforms and adapt seamlessly through contexts they are in. The interfaces is conversation and the conversation can move between platforms transparently.
-
-Oldschool bot platforms:
+                  🐮  "Similar to web tech a Bot can exist simultaneously 
+                      across different platforms and adapt seamlessly through 
+                      contexts they are in. The interfaces is conversation 
+                      and the conversation can move between platforms 
+                      transparently."
+```
+```
+    # Oldschool bot platforms:
 
 - irc
 - email
 - sms
 - twitter
 
-Nuschool bot platforms
+    # Nuschool bot platforms
 
 - Slack
 - Hipchat
