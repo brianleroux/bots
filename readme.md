@@ -440,14 +440,14 @@ console.log('hello bot')
 
 ```
 ---
-## the pick axes ⛏, the shovels 🕳, the building blocks 🔩
+## the pick axes ⛏ the shovels 🕳 the building blocks 🔩
 
 | Lets write some code                             |                       |
 |:------------------------------------------------ | ---------------------:|
-| 💎 Hello world Lambda function                    |🆒                      |
-| 💎 Expose endopint to the web with API Gateway    |🆗🆙                     |
-| 💎 Wire up SMS with Twilio                        |📲                      |
-| 💎 Port to Slack                                  |💫                      |
+| 💎 Hello world Lambda function                    |💎|
+| 💎 Expose endopint to the web with API Gateway    |💎💎|
+| 💎 Wire up SMS with Twilio                        |💎💎💎|
+| 💎 Port to Slack                                  |💎💎💎💎|
 
 ```
 
