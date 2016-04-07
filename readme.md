@@ -342,6 +342,8 @@ exports.handler = function(event, context) {
 ```javascript
 
 
+
+
 /**
  * so lets see how we can combine those ideas: serverless servers and build a Bots
  * lets build a bot, specifically, lets build an sms bot
@@ -369,18 +371,73 @@ exports.handler = function(event, context) {
 
 
 
+
 ```
 ---
 ```javascript
+
+
+
 /**
  * our bot needs a purpose
  * a reason to exist
  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ```
 ---
+```javascript
+/**
+ * but first, lets say hello
+ */
 
-    // but first, lets say hello
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+console.log('hello bot')
 
+
+
+
+
+
+```
 ---
 
 ## part 0: the pick axes, the shovels, the building blocks
