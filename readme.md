@@ -668,7 +668,7 @@ And a `package.json` like this:
 
 You get:
 
-#### :fast_forward: npm run scripts :running::dash:
+### :fast_forward: npm run scripts :running::dash:
 
 This is :key:! Staying in the flow with your terminal by reducing hunts for information in the AWS Console. :shipit::chart_with_upwards_trend:
 
@@ -681,6 +681,7 @@ This is :key:! Staying in the flow with your terminal by reducing hunts for info
 - :point_right: <kbd>npm run <b>log</b> src/lambdas/logout</kbd> to view the cloudwatch invocation logs for that lambda (remote `console.log` statements show up here)
 
 _Note: these scripts assume each lambda has it's own nested `package.json` file with a `name` property that matches the lambda name._
+```
 
 
 
@@ -700,8 +701,7 @@ _Note: these scripts assume each lambda has it's own nested `package.json` file 
 
 
 
-
-
+```
 ### create a lambda function in the aws console
 
 - `@smallwins/lambda` is deliberately a data flow control library with some convienance scripts 
