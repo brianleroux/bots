@@ -573,17 +573,42 @@ function safe(event, callback) {
 }
 
 exports.handler = lambda(valid, authorized, safe)
+```
+---
+#### :floppy_disk: save a record from a dynamodb trigger :boom::gun:
 
+AWS DynamoDB triggers invoke a Lambda function if anything happens to a table. The payload is usually a big array of records. `@smallwins/lambda` allows you to focus on processing a single record but executes the function in parallel on all the results in the Dynamo invocation. For convenience the same middleware chaining is supported.
 
+```javascript
+var lambda = require('@smallwins/lambda')
 
+function save(record, callback) {
+  console.log('save a version ', record)
+  callback(null, record)
+}
 
+exports.handler = lambda.sources.dynamo.save(save)
+```
 
+## :love_letter: api :thought_balloon::sparkles:
 
+- `lambda(...fns)` create a Lambda that returns a serialized json result `{ok:true|false}`
+- `lambda([fns], callback)` create a Lambda and handle result with your own errback formatter
+- `lambda.local(fn, fakeEvent, (err, result)=>)` run a Lambda locally offline by faking the event obj
+- `lambda.sources.dynamo.all(...fns)` run on INSERT, MODIFY and REMOVE
+- `lambda.sources.dynamo.save(...fns)` run on INSERT and MODIFY
+- `lambda.sources.dynamo.insert(...fns)` run on INSERT only
+- `lambda.sources.dynamo.modify(...fns)` run on MODIFY only
+- `lambda.sources.dynamo.remove(...fns)` run on REMOVE only
 
+A handler looks something like this:
 
-
-
-
+```javascript    
+function handler(event, callback) {
+  // process event, use to pass data
+  var result = {ok:true, event:event}
+  callback(null, result)
+}
 ```
 ### create a lambda function in the aws console
 
