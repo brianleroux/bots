@@ -832,14 +832,23 @@ And make sure your Bot can bashfully acknowledge things it does not understand!
 ```
 
        🤖 
+       |
+       |
+       |
+       |
+       '--------------------------------------------------------.
+                                              | thx!            }
+                                              | ping me anytime }
+                                              | brian@begin.com }
+                                              '-----------------'
 
 
 
 
 
-                                                thx!
-                                                ping me anytime
-                                                brian@begin.com
+
+
+
 
 
 ```
