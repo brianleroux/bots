@@ -500,7 +500,30 @@ Take this simple url for example:
 
 
 ```
----    
+---
+# @smallwins/validate and @smallwins/lambda
+```javascript
+var validate = require('@smallwins/validate')
+var lambda = require('@smallwins/lambda')
+
+function sum(event, callback) {
+  var schema = {
+    'query':   {required:true, type:Object},
+    'query.x': {required:true, type:Number}
+  }
+  var errors = validate(event, schema)
+  if (errors) {
+    callback(errors)
+  }
+  else {
+    var result = {count:event.query.x + 1}
+    callback(null, result)
+  }
+}
+
+exports.handler = lambda(sum)
+```
+---
 ### create a lambda function in the aws console
 
 - `@smallwins/lambda` is deliberately a data flow control library with some convienance scripts 
