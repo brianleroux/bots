@@ -501,6 +501,7 @@ Take this simple url for example:
 
 ```
 ---
+### microlibraries for microservices 😻🎀
 ```javascript
 
 
@@ -525,8 +526,6 @@ function sum(event, callback) {
 }
 
 exports.handler = lambda(sum)
-
-
 
 
 
