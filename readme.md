@@ -438,10 +438,49 @@ exports.handler = function sum(event, context) {
 ```
 <blockquote>Validating a _single variable_ `event.query.x`!! </blockquote>
 ---
+### A huge amount of vanilla AWS Lambda code is quirky parameter validation
 ```
-A huge amount of vanilla AWS Lambda code is working around quirky parameter validation. API Gateway gives you control over the parameters you can expect but this still means one or more of: headers, querystring, form body, or url parameters. Event source style lambdas are not much better because you can often still get differing payloads from different origin sources. In the example above we are validating one querystring parameter x. Imagine a big payload! 😮
+AWS API Gateway gives you control but this still means one or more of: 
 
-Worse still, writing a good program we want to use JavaScript's builtin Error but it still needs manual serialization (and you still lose the stack trace). The latter part of this vanilla code uses the funky AWS context object.
+- headers
+- querystring
+- form body
+- url parameters
+
+
+
+
+
+
+Event source Lambdas are no better because you still get differing payloads from different origin sources.
+
+
+
+
+
+
+                       ¯\_(ツ)_/¯ 
+
+
+
+
+```
+---
+### Postels Law: not such a good idea 🤔
+- It isn't heresy to acknowledge `HTTP` is a weird protocol
+- In the example above we are validating one querystring parameter `x`... just imagine a big payload! 😮
+```
+
+Worse still, writing a good program we want to use JavaScript's builtin Error but it still needs manual serialization (and you lose the stack trace). The latter part of this vanilla code uses the funky AWS context object.
+
+
+
+
+
+
+
+
+We can do better!
 ```
 ---    
 ### create a lambda function in the aws console
