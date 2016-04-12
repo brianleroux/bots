@@ -474,7 +474,7 @@ Take this simple url for example:
 ## Postels Law: maybe not such a good idea 🤔
 - It isn't heresy to acknowledge `HTTP` is a weird protocol 
 - In the example above we are validating one querystring parameter `x`... just imagine a big payload! 😮
-- Worse still, `Error` requires manual serialization: remember (a string is not an error)[http://www.devthought.com/2011/12/22/a-string-is-not-an-error/]
+- Worse still, `Error` requires manual serialization: remember [a string is not an error](http://www.devthought.com/2011/12/22/a-string-is-not-an-error)
 - The latter part of this vanilla code uses the funky AWS context object
 ```
 
