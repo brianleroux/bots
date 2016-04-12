@@ -782,7 +782,7 @@ npm run invoke lambdabot brian ""
 
 
 
-                                teh codez
+                                          lets look at the code
 
 
 
@@ -802,13 +802,38 @@ npm run invoke lambdabot brian ""
 ```
 ---
     
-# All good bots respond to
+# Bot UX
+
+All good Bots will always respond to:
 
 - help
 - status
 - blank input
-- bashfully acknowledge things it does not understand
 
+And make sure your Bot can bashfully acknowledge things it does not understand!
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                thx!
+                                                ping me anytime
+                                                brian@begin.com
+
+
+```
 ---
 
 # TEASER!
