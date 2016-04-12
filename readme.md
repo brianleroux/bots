@@ -449,12 +449,17 @@ AWS API Gateway gives you control but this still means one or more of:
 
 
 
+Take this simple url for example: 
 
 
 
+                     https://fake.com/posts/3/comments/5?success=true
 
 
 
+- event.params.post_id
+- event.params.comment_id
+- event.query.success
 
 
 
@@ -466,7 +471,7 @@ AWS API Gateway gives you control but this still means one or more of:
 
 ```
 ---
-### Postels Law: not such a good idea 🤔
+### Postels Law: maybe not such a good idea 🤔
 - It isn't heresy to acknowledge `HTTP` is a weird protocol
 - In the example above we are validating one querystring parameter `x`... just imagine a big payload! 😮
 ```
