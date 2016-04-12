@@ -178,8 +178,8 @@ But this manifestation is. These Bots are not here just to chat.
 ```
 ---
 ## 💰 function pricing
-- 🙊 **AWS** `First 1 million requests per month are free. $0.20 per 1 million requests thereafter ($0.0000002 per request)`
-- 🙉 **Google** `pricing remains unannounced`
+- 🙉 **AWS** `First 1 million requests per month are free. $0.20 per 1 million requests thereafter ($0.0000002 per request)`
+- 🙊 **Google** `pricing remains unannounced`
 - 🙈 **Azure** `Function requests are charged per million requests, with the first 1 million requests free. [Then ambigous] pay for what you use with compute metered to the nearest 100ms at Per/GB` 
 ```
 
@@ -330,6 +330,7 @@ exports.handler = function(event, context) {
   // event is an arbitrary payload of data from whatever source invoked the Lambda
   // context is an object with information about the execution environment
   //   AND it has function members for asynchronous: `succeed`, `fail` or shorthand err first `done`
+  //   alternately you can pass third param of a node style callback (aka an errback)
   context.done(null, {ok:true})
 }
 ```
@@ -379,7 +380,7 @@ exports.handler = function(event, context) {
 ## the pick axes ⛏ the shovels 🕳 the building blocks 🔩
 
 | Lets write some code                             |                       |
-|:------------------------------------------------ |:--------------------- |
+|:------------------------------------------------ | --------------------- |
 | 💎 Hello world Lambda function                    |💎|
 | 💎 Expose endopint to the web with API Gateway    |💎💎|
 | 💎 Wire up SMS with Twilio                        |💎💎💎|
