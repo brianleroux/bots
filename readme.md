@@ -666,6 +666,7 @@ And a `package.json` like this:
 }
 ```
 You get:
+
 ---
 ### :fast_forward: npm run scripts :running::dash:
 
@@ -681,9 +682,6 @@ This is :key:! Staying in the flow with your terminal by reducing hunts for info
 
 _Note: these scripts assume each lambda has it's own nested `package.json` file with a `name` property that matches the lambda name._
 ```
-
-
-
 
 
 
