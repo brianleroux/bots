@@ -375,7 +375,6 @@ exports.handler = function(event, context) {
 ```
 <blockquote>&nbsp;</blockquote>
 <blockquote>&nbsp;</blockquote>
-<blockquote>&nbsp;</blockquote>
 ---
 ## the pick axes ⛏ the shovels 🕳 the building blocks 🔩
 
