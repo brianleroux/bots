@@ -5,6 +5,7 @@
     "create": "lambda-create",
     "list": "lambda-list",
     "invoke": "lambda-invoke",
+    "local": "lambda-local",
     "deploy": "lambda-deploy",
     "deps": "lambda-deps",
     "log": "lambda-log"

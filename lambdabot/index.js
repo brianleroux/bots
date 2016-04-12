@@ -1,51 +1,43 @@
 var validate = require('@smallwins/validate')
 var lambda = require('@smallwins/lambda')
 var lodash = require('lodash')
+var twilio = require('twilio')
 
 function valid(event, callback) {
   var schema = {
-    'body.token':        {required:true, type:String},
-    'body.team_id':      {required:true, type:String},
-    'body.team_domain':  {required:true, type:String},
-    'body.channel_id':   {required:true, type:String},
-    'body.channel_name': {required:true, type:String},
-    'body.timestamp':    {required:true, type:String},
-    'body.user_id':      {required:true, type:String},
-    'body.user_name':    {required:true, type:String},
-    'body.text':         {required:true, type:String},
-    'body.trigger_word': {required:true, type:String}
+    'query':      {required:true, type:Object},
+    'query.Body': {required:true, type:String},
+    'query.From': {required:true, type:String},
+    'query.To':   {required:true, type:String}
   }
-  var errors = validate(event, schema)
-  if (errors) {
-    callback(null, {ok:false, text:'errs!'})
-  }
-  else {
-    callback(null, event)
-  }
+  validate(event, schema, callback)
 }
 
-function fn(event, callback) {
-  if (!event.ok) {
-    event.ok = true
-    callback(null, event)
+function reply(event, callback) {
+  var msg = lodash.trim(event.query.Body || '')
+  var txt = 'sorry, eh'
+  if (msg === 'hi') {
+    txt = 'hello world'
   }
-  else {
-    var msg = lodash.trim(event.body.text.replace(event.body.trigger_word, ''))
-    var text = 'sorry eh'
-    if (msg === 'help') {
-      text = 'help: list of commands\n'
-      text += '- help\n'
-      text += '- status\n'
-    }
-    if (msg === 'status') {
-      text = 'systems nominal'
-    }
-    if (msg === '') {
-      text = '...'
-    }
-    callback(null, {ok:true, text:text})
+  if (msg === 'status') {
+    txt = 'systems nominal'
   }
+  if (msg === '') {
+    txt = '...'
+  }
+  event.reply = {
+    to: event.query.From,
+    from: event.query.To,
+    body: txt
+  }
+  callback(null, event)
 }
 
-exports.handler = lambda(valid, fn)
-    
+function sms(event, callback) {
+  var client = twilio(event.stage.TWILIO_ACCOUNT_ID, event.stage.TWILIO_TOKEN)
+  client.sendMessage(event.reply, function(err, resp) {
+    console.log('sent twilio msg!', event.reply, err, resp)
+  }) 
+}
+
+exports.handler = lambda(valid, reply, sms)    
