@@ -588,8 +588,18 @@ function save(record, callback) {
 }
 
 exports.handler = lambda.sources.dynamo.save(save)
-```
 
+
+
+
+
+
+
+
+
+
+```
+---
 ## :love_letter: api :thought_balloon::sparkles:
 
 - `lambda(...fns)` create a Lambda that returns a serialized json result `{ok:true|false}`
@@ -600,16 +610,79 @@ exports.handler = lambda.sources.dynamo.save(save)
 - `lambda.sources.dynamo.insert(...fns)` run on INSERT only
 - `lambda.sources.dynamo.modify(...fns)` run on MODIFY only
 - `lambda.sources.dynamo.remove(...fns)` run on REMOVE only
+---
+### <kbd>#! automatations</kbd> :memo:
 
-A handler looks something like this:
+`@smallwins/lambda` includes some helpful automation code perfect for npm scripts. If you have a project that looks like this:
 
-```javascript    
-function handler(event, callback) {
-  // process event, use to pass data
-  var result = {ok:true, event:event}
-  callback(null, result)
+```
+project-of-lambdas/
+ |-test/
+ |-src/
+ |  '-lambdas/
+ |     |-signup/
+ |     |  |-index.js
+ |     |  |-test.js
+ |     |  '-package.json <--- name property should equal the deployed lambda name
+ |     |-login/
+ |     '-logout/
+ '-package.json
+
+```
+
+And a `package.json` like this:
+
+```javascript
+{
+  "name":"project-of-lambdas",
+  "scripts": {
+    "create":"AWS_PROFILE=smallwins lambda-create",
+    "list":"AWS_PROFILE=smallwins lambda-list",
+    "deploy":"AWS_PROFILE=smallwins lambda-deploy",
+    "invoke":"AWS_PROFILE=smallwins lambda-invoke",
+    "local":"AWS_PROFILE=smallwins lambda-local",
+    "deps":"AWS_PROFILE=smallwins lambda-deps",
+    "log":"AWS_PROFILE=smallwins lambda-log"
+  }
 }
 ```
+
+You get:
+
+#### :fast_forward: npm run scripts :running::dash:
+
+This is :key:! Staying in the flow with your terminal by reducing hunts for information in the AWS Console. :shipit::chart_with_upwards_trend:
+
+- :point_right: <kbd>npm run <b>create</b> src/lambdas/forgot</kbd> creates a new lambda named `forgot` at `src/lambdas/forgot` 
+- :point_right: <kbd>npm run <b>list</b></kbd> lists all deployed lambdas and all their alias@versions
+- :point_right: <kbd>npm run <b>deploy</b> src/lambdas/signup brian</kbd> deploys the lambda with the alias `brian`
+- :point_right: <kbd>npm run <b>invoke</b> src/lambdas/login brian '{"email":"b@brian.io", "pswd":"..."}'</kbd> to remote invoke a deployed lambda
+- :point_right: <kbd>npm run <b>local</b> src/lambdas/login brian '{"email":"b@brian.io", "pswd":"..."}'</kbd> to locally invoke a lambda
+- :point_right: <kbd>npm run <b>deps</b> src/lambdas/*</kbd> for a report of all your lambda deps
+- :point_right: <kbd>npm run <b>log</b> src/lambdas/logout</kbd> to view the cloudwatch invocation logs for that lambda (remote `console.log` statements show up here)
+
+_Note: these scripts assume each lambda has it's own nested `package.json` file with a `name` property that matches the lambda name._
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### create a lambda function in the aws console
 
 - `@smallwins/lambda` is deliberately a data flow control library with some convienance scripts 
