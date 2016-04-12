@@ -697,7 +697,7 @@ _Note: these scripts assume each lambda has it's own nested `package.json` file 
 
 ```
 ---
-### create a lambda function in the aws console
+### 💫 create a lambda function in the aws console
 
 - `@smallwins/lambda` is deliberately a data flow control library with some convienance scripts 
 - `@smallwins/lambda` is not a confiuration utility (aka a framework)
@@ -718,17 +718,19 @@ Then add the following to your `package.json`:
   "scripts": {
     "create": "lambda-create",
     "list": "lambda-list",
-    "invoke": "lambda-invoke",
     "deploy": "lambda-deploy",
-    "deps": "lambda-deps"
+    "invoke": "lambda-invoke",
+    "invoke": "lambda-local",
+    "deps": "lambda-deps",
+    "log": "lambda-log"
   },
   "dependencies": {
     "@smallwins/lambda": "^4.8.0"
   }
 }
 ```
-
-Now you can create a Lambda!
+---
+### 🐩 Now you can create a Lambda!
 ```bash
 npm run create lambdabot
 npm i
