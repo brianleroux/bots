@@ -452,14 +452,14 @@ AWS API Gateway gives you control but this still means one or more of:
 
 
 
-Event source Lambdas are no better because you still get differing payloads from different origin sources.
 
 
 
 
 
 
-                       ¯\_(ツ)_/¯ 
+
+                                          ¯\_(ツ)_/¯ 
 
 
 
