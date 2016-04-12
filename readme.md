@@ -630,7 +630,7 @@ exports.handler = lambda.sources.dynamo.save(save)
 
 ```
 ---
-### <kbd>#! automatations</kbd> :memo:
+## <kbd>#! automatations</kbd> :memo:
 
 `@smallwins/lambda` includes some helpful automation code perfect for npm scripts. If you have a project that looks like this:
 
