@@ -610,7 +610,17 @@ exports.handler = lambda.sources.dynamo.save(save)
 - `lambda.sources.dynamo.insert(...fns)` run on INSERT only
 - `lambda.sources.dynamo.modify(...fns)` run on MODIFY only
 - `lambda.sources.dynamo.remove(...fns)` run on REMOVE only
+```
 
+
+
+
+
+
+
+
+
+```
 ---
 ### <kbd>#! automatations</kbd> :memo:
 
