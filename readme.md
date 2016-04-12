@@ -696,19 +696,18 @@ _Note: these scripts assume each lambda has it's own nested `package.json` file 
 
 
 ```
+---
 ### create a lambda function in the aws console
 
 - `@smallwins/lambda` is deliberately a data flow control library with some convienance scripts 
 - `@smallwins/lambda` is not a confiuration utility (aka a framework)
 - Do your config business in the AWS console: it is a best tool for that job (except when it isn't)
 
----
-
-    mkdir lambdabot
-    cd lambdabot/ && npm init -y
-    npm i @smallwins/lambda --save
-
----
+```bash
+mkdir lambdabot
+cd lambdabot/ && npm init -y
+npm i @smallwins/lambda --save
+```
 
 Then add the following to your `package.json`:
 
@@ -729,15 +728,13 @@ Then add the following to your `package.json`:
 }
 ```
 
----
-
-    # create a lambda!
-    npm run create lambdabot
-    npm i
-    npm run deploy lambdabot brian
-    npm run invoke lambdabot brian ""
-
----
+Now you can create a Lambda!
+```bash
+npm run create lambdabot
+npm i
+npm run deploy lambdabot brian
+npm run invoke lambdabot brian ""
+```
 
 # lets validate an outgoing webhook payload
 
