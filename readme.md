@@ -438,7 +438,7 @@ exports.handler = function sum(event, context) {
 ```
 <blockquote>Validating a _single variable_ `event.query.x`!! </blockquote>
 ---
-### A huge amount of vanilla AWS Lambda code is quirky parameter validation
+### 😅 Huge amount of vanilla AWS Lambda code is quirky parameter validation
 ```
 AWS API Gateway gives you control but this still means one or more of: 
 
