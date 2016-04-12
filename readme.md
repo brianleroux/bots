@@ -501,7 +501,6 @@ Take this simple url for example:
 
 ```
 ---
-# @smallwins/validate and @smallwins/lambda
 ```javascript
 var validate = require('@smallwins/validate')
 var lambda = require('@smallwins/lambda')
