@@ -471,12 +471,13 @@ Take this simple url for example:
 
 ```
 ---
-### Postels Law: maybe not such a good idea 🤔
+## Postels Law: maybe not such a good idea 🤔
 - It isn't heresy to acknowledge `HTTP` is a weird protocol
 - In the example above we are validating one querystring parameter `x`... just imagine a big payload! 😮
+- Worse still, Error but it still needs manual serialization (and you lose the stack trace)
+- The latter part of this vanilla code uses the funky AWS context object
 ```
 
-Worse still, writing a good program we want to use JavaScript's builtin Error but it still needs manual serialization (and you lose the stack trace). The latter part of this vanilla code uses the funky AWS context object.
 
 
 
@@ -485,7 +486,10 @@ Worse still, writing a good program we want to use JavaScript's builtin Error bu
 
 
 
-We can do better!
+                                             We can do better!
+
+
+
 ```
 ---    
 ### create a lambda function in the aws console
