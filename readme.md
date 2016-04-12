@@ -536,6 +536,55 @@ exports.handler = lambda(sum)
 
 ```
 ---
+### 👯👯👯 run in series
+```javascript
+
+
+var validate = require('@smallwins/validate')
+var lambda = require('@smallwins/lambda')
+
+function valid(event, callback) {
+  var schema = {
+    'body':          {required:true, type:Object},
+    'body.username': {required:true, type:String},
+    'body.password': {required:true, type:String}
+  }
+  validate(event, schema, callback)
+}
+
+function authorized(event, callback) {
+  var loggedIn = event.body.username === 'sutro' && event.body.password === 'cat'
+  if (!loggedIn) {
+    // err first
+    callback(Error('not found'))
+  }
+  else {
+    // successful login
+    event.account = {
+      loggedIn: loggedIn,
+      name: 'sutro furry pants'
+    }
+    callback(null, event)
+  }
+}
+
+function safe(event, callback) {
+  callback(null, {account:event.account})
+}
+
+exports.handler = lambda(valid, authorized, safe)
+
+
+
+
+
+
+
+
+
+
+
+```
 ### create a lambda function in the aws console
 
 - `@smallwins/lambda` is deliberately a data flow control library with some convienance scripts 
