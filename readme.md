@@ -336,7 +336,6 @@ exports.handler = function(event, context) {
 ```
 <blockquote>&nbsp;</blockquote>
 <blockquote>&nbsp;</blockquote>
-<blockquote>&nbsp;</blockquote>
 ---
 ```javascript
 
@@ -373,6 +372,7 @@ exports.handler = function(event, context) {
 
 
 ```
+<blockquote>&nbsp;</blockquote>
 <blockquote>&nbsp;</blockquote>
 <blockquote>&nbsp;</blockquote>
 ---
