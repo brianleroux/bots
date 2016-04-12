@@ -766,47 +766,68 @@ npm run invoke lambdabot brian ""
 
 ```
 ---
-# lets validate an outgoing webhook payload
+```
 
-<script src="https://gist.github.com/brianleroux/da469ce9ef1cb1723b3cd25ad715fb9f.js"></script>
 
----
 
-    # tests and lambda.local
 
+
+
+
+
+
+
+
+
+
+
+
+                                teh codez
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```
 ---
     
-# all good bots respond to
+# All good bots respond to
 
 - help
 - status
 - blank input
+- bashfully acknowledge things it does not understand
 
 ---
-    gateway velocity tempaltes
-    https://gist.github.com/brianleroux/11d14307ef1be57fe154429cc43c9a22
----
----
----
----
 
-## part 1: call and response (alphabots)
+# TEASER!
+
+I plan to update this repo with:
+
+#### part 1: call and response (alphabots)
 
 1. a look at data formats for knowledgebases
-2. regular expressions
+2. regular expressions and natural language processing
 3. alice, superscript, rive, chatscript
 
----
-
-## part 2: scripting (betabots)
+#### part 2: scripting (betabots)
 
 1. payload and reply
 2. the middleware pattern
-
----
  
-## part 3: stateful (bots)
+#### part 3: stateful (bots)
 
 1. aws storage options
-2. finite state machines
-
+2. finite state machines for stateful conversations
+3. various ML techniques for fuzzy decision making

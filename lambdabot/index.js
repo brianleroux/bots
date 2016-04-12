@@ -5,10 +5,13 @@ var twilio = require('twilio')
 
 function valid(event, callback) {
   var schema = {
-    'query':      {required:true, type:Object},
-    'query.Body': {required:true, type:String},
-    'query.From': {required:true, type:String},
-    'query.To':   {required:true, type:String}
+    'stage':                   {required:true, type:Object}, 
+    'stage.TWILIO_ACCOUNT_ID': {required:true, type:String},
+    'stage.TWILIO_TOKEN':      {required:true, type:String},
+    'query':                   {required:true, type:Object},
+    'query.Body':              {required:true, type:String},
+    'query.From':              {required:true, type:String},
+    'query.To':                {required:true, type:String}
   }
   validate(event, schema, callback)
 }
