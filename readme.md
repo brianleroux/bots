@@ -502,6 +502,10 @@ Take this simple url for example:
 ```
 ---
 ```javascript
+
+
+
+
 var validate = require('@smallwins/validate')
 var lambda = require('@smallwins/lambda')
 
@@ -521,6 +525,19 @@ function sum(event, callback) {
 }
 
 exports.handler = lambda(sum)
+
+
+
+
+
+
+
+
+
+
+
+
+
 ```
 ---
 ### create a lambda function in the aws console
