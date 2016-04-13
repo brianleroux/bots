@@ -119,7 +119,7 @@
 But this manifestation is. These Bots are not here just to chat. 
 
       🐧  "This Bot is a superagent acting on your behalf 
-          and it better for some things than using an App"
+          and it is better for some things than using an App"
 
       🐮  "Similar to web tech a Bot can exist simultaneously 
           across different platforms and adapt seamlessly through 
@@ -272,7 +272,7 @@ The real price you'll pay is the cost of a adopting a new microservice style arc
 
 
 
-(Truly it is cheap enough to experiment with all them and I totally reccomend you do.)
+(Truly it is cheap enough to experiment with all them and I totally recommend you do.)
 ```
 ---
 ```
