@@ -700,7 +700,7 @@ _Note: these scripts assume each lambda has it's own nested `package.json` file 
 ### 💫 create a lambda function in the aws console
 
 - `@smallwins/lambda` is deliberately a data flow control library with some convienance scripts 
-- `@smallwins/lambda` is not a confiuration utility (aka a framework)
+- `@smallwins/lambda` is not a configuration utility (aka a framework)
 - Do your config business in the AWS console: it is a best tool for that job (except when it isn't)
 
 ```bash
